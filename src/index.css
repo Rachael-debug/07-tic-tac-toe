@@ -349,3 +349,106 @@ ol {
     transform: scale(1);
   }
 }
+
+@media only screen and (max-width: 600px){
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    padding: 8px; 
+    /* border: none;
+    background: #aca788;
+    color: #3f3b00;
+    
+    cursor: pointer;
+    font-family: 'Caprasimo', cursive;
+    padding: 1rem; */
+  }
+
+  #game-board {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 1rem;
+    /* margin: 3rem 0; */
+    /* padding: 0;
+    flex-direction: column; */
+  }
+
+  #game-board ol {
+    /* display: flex;
+    justify-content: center; */
+    flex-wrap: nowrap;
+    gap: 1rem;
+    /* margin: 0;
+    padding: 0; */
+  }
+
+  .player {
+    /* border: 2px solid transparent; */
+    padding: 3px;
+    /* border-radius: 4px;
+    font-weight: bold; */
+  }
+
+  .player-name {
+    /* display: inline-block; */
+    width: 5rem;
+    font-size: 13px;
+    /* color: #e1dec7; */
+    /* text-transform: uppercase; */
+    /* margin: 0; */
+    padding: 3px;
+    /* border-radius: 4px;
+    text-overflow: ellipsis;
+    text-align: center; */
+  }
+
+  .player input {
+    /* font: inherit; */
+    font-size: 13px;
+    width: 5rem;
+    /* border: none; */
+    padding: 3px;
+    /* animation: pulse-text 2s infinite;
+    background-color: #46432f;
+    text-align: center;
+    text-transform: uppercase; */
+  }
+  
+  .player-symbol {
+    margin-left: 0.5rem;
+    font-size: 13px;
+    
+  }
+
+  #players button {
+    width: 2rem;
+    /* border: none;
+    background: none;
+    color: #c3ba78; */
+    font-size: 13px;
+    /* cursor: pointer;
+    transition: color 0.2s;
+    padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+    text-align: center; */
+  }
+
+  #players li {
+    /* display: flex;
+    align-items: center; */
+    width: 55%;
+    /* border: 2px solid transparent; */
+  }
+
+  #players {
+    /* list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    gap: 1rem;
+  }
+  
+}
